@@ -9,7 +9,11 @@
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">John Doe</div>
+        <div class="logo-name">
+          <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+          <dotlottie-player src="https://lottie.host/2b6062b5-c749-4969-9d27-963579330c05/yO31KiN9Q9.json" background="transparent" speed="1" style=" width: 100px; height: 100px;" loop autoplay></dotlottie-player>
+          <div class="logo">Chris Lantigua</div>
+        </div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -21,7 +25,7 @@
     </nav>
 
     <nav id="hamburger-nav">
-        <div class="logo">John Doe</div>
+        <div class="logo">Chris Lantigua</div>
         <div class="hamburger-menu">
           <div class="hamburger-icon" onclick="toggleMenu()">
             <span></span>
@@ -39,12 +43,12 @@
 
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="Jhon Doe profile-pic"/>
+            <img src="./assets/profile-pic.png" alt="Chris Lantigua profile-pic" height="300" width="300"/>
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
-            <h1>Jhon Doe</h1>
-            <p class="section__text__p2">Front End Developer</p>
+            <h1>Chris Lantigua</h1>
+            <p class="section__text__p2">Software Engineer</p>
             <div class="btn-container">
                 <button class="btn btn-color-2 btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Donwload CV</button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
@@ -67,11 +71,8 @@
         <h1 class="title">About Me</h1>
         <div class="section-container">
           <div class="section__pic-container">
-            <img
-              src="./assets/about-pic.png"
-              alt="Profile picture"
-              class="about-pic"
-            />
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+            <dotlottie-player src="https://lottie.host/380ee15a-34f8-4300-a661-bbd7043342c8/uSPAOeEu1r.json" background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay></dotlottie-player>
           </div>
           <div class="about-details-container">
             <div class="about-containers">
@@ -82,7 +83,7 @@
                   class="icon"
                 />
                 <h3>Experience</h3>
-                <p>2+ years <br />Frontend Development</p>
+                <p>1+ years <br />Software Engineer</p>
               </div>
               <div class="details-container">
                 <img
@@ -91,7 +92,7 @@
                   class="icon"
                 />
                 <h3>Education</h3>
-                <p>B.Sc. Bachelors Degree<br/></p>
+                <p>Finishing<br>B.Sc. Bachelors Degree<br/></p>
               </div>
             </div>
             <div class="text-container">
@@ -151,17 +152,6 @@
                     class="icon"
                   />
                   <div>
-                    <h3>SASS</h3>
-                    <p>Intermediate</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
                     <h3>JavaScript</h3>
                     <p>Basic</p>
                   </div>
@@ -177,21 +167,10 @@
                     <p>Basic</p>
                   </div>
                 </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Material UI</h3>
-                    <p>Intermediate</p>
-                  </div>
-                </article>
               </div>
             </div>
             <div class="details-container">
-              <h2 class="experience-sub-title">Frontend Development</h2>
+              <h2 class="experience-sub-title">Backend Development</h2>
               <div class="article-container">
                 <article>
                   <img
